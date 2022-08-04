@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+   
+}
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://static-cse.canva.com/blob/571508/Patterns303.a921c991.avif");
+}
+
+#container {
+    max-width: 270px;
+    margin: 30vh auto 0 auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(62, 62, 62);
+}
+#display {
+    height: 70px;
+    line-height: 70px;
+    text-align: right;
+    font-size: 20px;
+    padding: 16px 8px;
+    background-color: rgb(236, 239, 242);
+    overflow:hidden;
+}
+#buttons { display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button {
+line-height: 50px;
+text-align: center;
+cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(205, 184, 45);
+    transition: .5s ease-in-out ;
+}
